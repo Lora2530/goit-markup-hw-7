@@ -1,0 +1,61 @@
+.Komand{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $grey-color;
+    padding-bottom: 90px; 
+}
+.Pipel {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: $grey-color;
+    text-align: center;
+    margin-top: 20px;
+}
+.Profession {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    text-align: center;
+    margin-top: 10px;
+}
+.social-icon{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.social-list-icon:not(:last-child){
+    margin-right: 10px;
+}
+.social-list-pcon{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+.social-list-pcon:hover .icom{
+    fill: $accent-color;
+}
+.List-klient{
+    margin-left: 10px;
+    width: 260px; 
+    height: 250px;
+}
+.Client{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: $grey-color;
+    margin-bottom: 50px;
+}

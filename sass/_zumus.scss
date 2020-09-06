@@ -1,0 +1,79 @@
+.Item{
+    margin-right: 30px;
+    list-style-type: none;
+    &:hover,
+    &:focus{
+        color: red; 
+}
+.Efect{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 200px;
+}
+.Efect{
+    margin-bottom: 30px;
+    
+}
+.hed{
+    background-image: url(../img/heder.png);
+    width: 1230px;
+    height: 600px;
+}
+.Zakaz{
+    color: #FFFFFF;
+    width: 200px;
+    height: 50px;
+    left: 415px;
+    top: 474px;
+    margin-left: 480px;
+}
+.Zakaz{
+    background-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    text-align: center;
+}
+.Uslug {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    width: 260px;
+    height: 16px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+} 
+.Ideal{
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575; 
+    padding-bottom: 20px;
+    width: 260px;
+    height: 16px;
+    margin-left: 30px;
+}
+.Shem{
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.Chem{
+    display: flex;
+}
+.imt{
+    list-style-type: none;
+    margin-left: 30px;
+}
